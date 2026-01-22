@@ -1,17 +1,17 @@
 {
-    "name": "michaelnabil230/laravel-weather",
+    "name": "rikukimuratf/laravel-weather",
     "description": "Package for get the weather data",
     "keywords": [
         "MichaelNabil230",
         "laravel",
         "laravel-weather"
     ],
-    "homepage": "https://github.com/michaelnabil230/laravel-weather",
+    "homepage": "https://github.com/rikukimuratf/laravel-weather",
     "license": "MIT",
     "authors": [
         {
-            "name": "Michael Nabil",
-            "email": "michaelnabil926@gmail.com",
+            "name": "Riku Kimura",
+            "homepage": "https://rikukimura.com/"
             "role": "Developer"
         }
     ],
