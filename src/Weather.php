@@ -35,11 +35,11 @@ class Weather
     private function setDefaultValues(): void
     {
         $this
-            ->temperatureUnit(config()->string('weather.temperature_unit', 'celsius'))
-            ->windSpeedUnit(config()->string('weather.wind_speed_unit', 'kmh'))
-            ->precipitationUnit(config()->string('weather.precipitation_unit', 'mm'))
-            ->timeFormat(config()->string('weather.time_format', 'iso8601'))
-            ->timezone(config()->string('weather.timezone', 'GMT'));
+            ->temperatureUnit(config('weather.temperature_unit', 'celsius'))
+            ->windSpeedUnit(config('weather.wind_speed_unit', 'kmh'))
+            ->precipitationUnit(config('weather.precipitation_unit', 'mm'))
+            ->timeFormat(config('weather.time_format', 'iso8601'))
+            ->timezone(config('weather.timezone', 'GMT'));
     }
 
     public static function location(float $latitude, float $longitude): self

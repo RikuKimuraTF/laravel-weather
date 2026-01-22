@@ -18,7 +18,7 @@ APIs are free without any API key for open-source developers and non-commercial 
 You can install the package via composer:
 
 ```bash
-composer require michaelnabil230/laravel-weather
+composer require rikukimuratf/laravel-weather
 ```
 
 You can publish the config file with:
